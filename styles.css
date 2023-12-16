@@ -1,0 +1,158 @@
+body {
+    font-size: 19px;
+    background-color: #f4f9f9; /* Soft blue-gray background */
+}
+
+table {
+    width: 70%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+tr {
+    border-bottom: 1px solid #d6d6d6;
+}
+
+th, td {
+    border: none;
+    height: 30px;
+    padding: 10px;
+}
+
+tr:hover {
+    background: #e0f0f0; /* Light blue-gray on hover */
+}
+
+form {
+    width: 35%; /* Reduced the width to 35% */
+    margin: 50px auto;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    background-color: #ffffff; /* White background */
+}
+
+.input-group {
+    margin: 10px 0px;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.input-group input {
+    height: 20px;
+    width: 95%; /* Reduced the width to 95% */
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #d6d6d6; /* Light gray border */
+}
+
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #3D405B; /* Cadet Blue button color */
+    border: none;
+    border-radius: 5px;
+}
+
+.edit_btn {
+    text-decoration: none;
+    padding: 5px 10px;
+    background: #20639B; /* Light blue edit button color */
+    color: white;
+    border-radius: 5px;
+}
+
+.del_btn {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    background: #5b1311; /* Dark red delete button color */
+}
+
+
+
+.msg {
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 5px;
+    color: #583850;
+    background: #B3AEC7;
+    border: 1px solid #583850;
+    width: 50%;
+    text-align: center;
+}
+
+
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Center vertically on the page */
+}
+
+.site-title {
+    font-size: 3em; /* Adjust as needed */
+    color: #3498db; /* Text color */
+    margin-bottom: 10px; /* Add space between title and description */
+}
+
+.site-description {
+    font-size: 1.2em; /* Adjust as needed */
+    color: #555; /* Text color */
+    text-align: center;
+    margin-bottom: 30px; /* Add space between description and button */
+}
+
+.register-button,
+.secondary-button,
+.main-page-button {
+    padding: 15px; /* Increased padding for a larger button */
+    font-size: 18px; /* Adjusted font size */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-button {
+    background: #3498db; /* Attractive color for the register button */
+    color: #fff; /* Text color */
+}
+
+.secondary-button {
+    background: #e32e0f; /* Green color for secondary buttons */
+    color: #fff; /* Text color */
+    margin-bottom: 10px; /* Add space between buttons */
+}
+
+.secondary-button:hover {
+    background-color: #077b37; /* Darker green color on hover */
+}
+
+.main-page-button {
+    background: #2661a4; /* Red color for main page button */
+    color: #fff; /* Text color */
+}
+
+.main-page-button:hover {
+    background-color: rgb(53, 190, 83); /* Darker red color on hover */
+}
+
+.center-container-user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh; /* Center vertically on the page */
+}
